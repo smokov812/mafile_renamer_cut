@@ -72,38 +72,9 @@ my_login.mafile
 python .\mafile_renamer___cut.py
 ```
 
-## Сборка `.exe`
+Либо же просто скачай и запусти mafile_ranamer_cut.exe
 
-Если нужен новый билд:
 
-```powershell
-pyinstaller .\mafile_renamer___cut.spec
-```
 
-Готовый файл появится здесь:
 
-```text
-dist\mafile_renamer___cut.exe
-```
 
-## Первый релиз
-
-Рекомендуемый тег релиза:
-
-```text
-v1.0.0
-```
-
-Название релиза:
-
-```text
-mafile renamer + cut v1.0.0
-```
-
-Что приложить к GitHub Release:
-- `dist/mafile_renamer___cut.exe`
-- текст из файла `RELEASE_NOTES.md`
-
-## Автор
-
-`smokov`
